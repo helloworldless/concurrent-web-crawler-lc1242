@@ -3,6 +3,32 @@
 Fully self-contained, runnable code 
 based on this problem: https://leetcode.com/problems/web-crawler-multithreaded
 
+See test inputs and expected results in `src/main/resources`:
+
+- leet-code-1242-input-large.expected.txt
+- leet-code-1242-input-large.txt
+- leet-code-1242-input-medium.expected.txt
+- leet-code-1242-input-medium.txt
+- leet-code-1242-input-small.expected.txt
+- leet-code-1242-input-small.txt
+
+## Running Locally 
+
+Run `com.davidagood.concurrency.leetcode1242.LeetCode1242`
+
+## Results from Running Locally
+
+The largest input I could find from the LeetCode inputs has 
+200 nodes and 198 edges, see `src/main/resources/leet-code-1242-input-large.txt`.
+
+Running locally, this code solves the problem in 618 ms.
+
+## LeetCode Submission
+
+> Runtime: 11 ms, faster than 72.88% of Java online submissions for Web Crawler Multithreaded. 
+> 
+> Memory Usage: 46 MB, less than 94.26% of Java online submissions for Web Crawler Multithreaded.
+
 ## Code Runnable on LeetCode
 
 ```java
